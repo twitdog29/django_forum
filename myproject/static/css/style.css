@@ -1,0 +1,87 @@
+/*
+comments
+*********************/
+.content {
+    max-width: 600px;
+    height: 0 auto;
+    margin: 0 auto;
+    border-left: 2px solid #ccc;
+    border-right: 2px solid#ccc;
+   
+}
+
+.posts ul {
+    padding: 0;
+}
+
+.posts li {
+ position: relative;
+ display: flex;
+ border-bottom: 1px solid white;
+ padding: 20px 40px;
+ list-style: none;
+}
+
+.posts li .logo {
+    flex-basis: 15%;
+}
+
+.posts li .logo img {
+  width: 60%;
+}
+
+.posts li .name_body {
+ flex-basis: 85%;
+}
+.posts li .name_body .name {
+    font-weight: bold;
+   }
+
+
+
+/*
+post
+************************/
+ .post_form {
+    padding: 20px 40px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+ }
+.post_form input {
+    width: 87%;
+    margin-bottom:10px;
+    padding: 10px; 
+    border:none;
+    outline: none;
+}
+
+.post_form textarea {
+    width: 87%;
+    height: 80px;
+    padding: 10px;
+    border:1px solid #ccc;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+} 
+
+.posts li .menu{
+    position:absolute;
+    top: 40px;
+    right: 15px;
+    border: 1px solid white;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 3px
+}
+.posts li .menu a{
+    text-decoration: none;
+}
+.posts li .menu_icon {
+    width: 20px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    z-index: 999;
+}
